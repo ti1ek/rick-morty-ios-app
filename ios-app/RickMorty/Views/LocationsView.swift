@@ -1,4 +1,5 @@
 import SwiftUI
+import Combine
 
 struct LocationsView: View {
     @StateObject private var viewModel = LocationsViewModel()

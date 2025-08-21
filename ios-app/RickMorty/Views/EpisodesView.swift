@@ -1,4 +1,5 @@
 import SwiftUI
+import Combine
 
 struct EpisodesView: View {
     @StateObject private var viewModel = EpisodesViewModel()
