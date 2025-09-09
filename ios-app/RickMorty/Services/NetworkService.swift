@@ -3,7 +3,7 @@ import Combine
 
 class NetworkService {
     static let shared = NetworkService()
-    private let baseURL = "http://localhost:3000/api"
+    private let baseURL = "https://rick-morty-ios-app-production.up.railway.app/api"
     
     private init() {}
     
